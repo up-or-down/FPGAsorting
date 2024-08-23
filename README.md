@@ -22,6 +22,7 @@ spike_times：一个长度为3522的数组，代表各spike出现的时间戳（
 
 在数据及内部，用通道来表示不同文件夹下的数据：
 channel=1     ======   C_Easy1_noise01，简单数据，噪声0.1
+
 channel=2     ======   C_Easy1_noise02
 
 channel=3     ======   C_Easy1_noise03
@@ -55,7 +56,9 @@ channel=106     ======   C_Difficult1_noise015
 channel=121     ======   C_Difficult2_noise01
 
 channel=122     ======   C_Difficult2_noise02
+
 channel=125     ======   C_Difficult2_noise005
+
 channel=126     ======   C_Difficult2_noise015
 
 
