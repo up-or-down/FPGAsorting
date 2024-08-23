@@ -1,11 +1,13 @@
 # FPGAsorting
 spike-sorting implemented on FPGA
 
-该组数据来源于https://figshare.le.ac.uk/articles/dataset/Simulated_dataset/11897595，详细介绍如下：
+该组数据来源于https://figshare.le.ac.uk/articles/dataset/Simulated_dataset/11897595
+，详细介绍如下：
 
 从基底神经节和新皮层采集的皮质内在体记录，包含594个不同的spike波形，归一化噪声范围0.05-0.2
 相当于SNR范围3-16
-据文中表示数据集链接——http://www.vis.caltech.edu/~rodri. 但打不开，page not found；不知道2022年和2023年两篇文章是怎么找到的数据
+据文中表示数据集链接——http://www.vis.caltech.edu/~rodri. 
+但打不开，page not found；不知道2022年和2023年两篇文章是怎么找到的数据
 
 在bing国际版搜索人名+数据集，找到一个链接：显示由R.Q Quiroga在2020年2月26上传
 https://figshare.le.ac.uk/articles/dataset/Simulated_dataset/11897595
@@ -20,25 +22,45 @@ spike_times：一个长度为3522的数组，代表各spike出现的时间戳（
 
 在数据及内部，用通道来表示不同文件夹下的数据：
 channel=1     ======   C_Easy1_noise01，简单数据，噪声0.1
+
 channel=2     ======   C_Easy1_noise02
+
 channel=3     ======   C_Easy1_noise03
+
 channel=4     ======   C_Easy1_noise04
+
 channel=5     ======   C_Easy1_noise005
+
 channel=6     ======   C_Easy1_noise015
+
 channel=7     ======   C_Easy1_noise025
+
 channel=8     ======   C_Easy1_noise035
+
 channel=21     ======   C_Easy2_noise01
+
 channel=22     ======   C_Easy2_noise02
+
 channel=25     ======   C_Easy2_noise005
+
 channel=26     ======   C_Easy2_noise015
+
 channel=101     ======   C_Difficult1_noise01
+
 channel=102     ======   C_Difficult1_noise02
+
 channel=105     ======   C_Difficult1_noise005
+
 channel=106     ======   C_Difficult1_noise015
+
 channel=121     ======   C_Difficult2_noise01
+
 channel=122     ======   C_Difficult2_noise02
+
 channel=125     ======   C_Difficult2_noise005
+
 channel=126     ======   C_Difficult2_noise015
+
 
 
 # 程序介绍如下：
