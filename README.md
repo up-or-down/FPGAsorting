@@ -73,7 +73,7 @@ channel=126     ======   C_Difficult2_noise015
 ## 3、进入最核心程序sorting.m
 在这里执行sorting算法，由于功能多，可以用ctrl+enter分别运行每个小节。首先定义聚类的目标簇数，据此创建空结构体，随后对模拟按时间顺序到来的spike，在结构体中存在空簇时优先将当前spike分到空的簇，即使与之前某个簇中的spike很接近。然后遍历所有spike 的HAMMC特征，计算与各簇中心的距离，将当前spike分到最近距离的簇同时更新该簇中心，数据集内spike都聚类之后保存各簇中心点，清除本次的spike特征，继续进行下一轮迭代。两轮迭代后各簇中心点距离不变后认为收敛。在计算准确率时直接将结构体拿来运算即可。
 ## 4、FPGA上程序复现
-已打包为[压缩文件](https://github.com/up-or-down/FPGAsorting/project_1.rar)
+已打包为[压缩文件]([https://github.com/up-or-down/FPGAsorting/project_1.rar](https://github.com/up-or-down/FPGAsorting/blob/main/project_1.rar))
 
 # 绘图时：
 据参考文献“An Online-Spike-Sorting IC Using Unsupervised Geometry-Aware OSort Clustering for Efficient Embedded Neural-Signal Processing, Chenyingping”，spike横坐标为Time Step, 纵坐标为Normalized Amplitude
