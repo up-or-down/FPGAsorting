@@ -64,7 +64,7 @@ channel=126     ======   C_Difficult2_noise015
 
 
 # 程序介绍如下：
-原始数据保存在所里台式机内，存储路径为D:\postgraduate\research\direction\Algorithm\JSSC-Osort\R.Q.Quirogadataset\Simulator
+原始数据保存在所里台式机内，存储路径为D:\postgraduate\research\direction\JSSC-Osort\R.Q.Quirogadataset\Simulator
 在matlab中首先打开上述easy或difficult数据，原始数据包含data、OVERLAP_DATA、sampling_interval、spike_class、spike_times
 ## 1、运行process_RQ.m程序
 用于基于data出发获取sorted_spike，整理出固定长度的spike矩阵，做pca分析得到pca矩阵；figure(1)根据原始数据中的label直接绘制原波形；figure(3)基于pca矩阵获得pca空间spike特征点的分布情况；本文件还保留了为spike滤波的条件，滤波后的变量命名为filtered；
