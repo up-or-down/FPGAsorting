@@ -1,6 +1,6 @@
 # FPGAsorting
 spike-sorting implemented on FPGA
-This project is for BioCAS2024[Low-complexity and Efficient Spike Sorting Algorithm Implemented on FPGA](https://ieeexplore.ieee.org/xpl/conhome/1001670/all-proceedings)
+This project is for BioCAS2024[Low-complexity and Efficient Spike Sorting Algorithm Implemented on FPGA](https://ieeexplore.ieee.org/document/10798331/)
 该组数据来源于https://figshare.le.ac.uk/articles/dataset/Simulated_dataset/11897595
 ，详细介绍如下：
 
