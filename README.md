@@ -1,8 +1,10 @@
 # FPGAsorting
 spike-sorting implemented on FPGA
-This project is for BioCAS2024 [Low-complexity and Efficient Spike Sorting Algorithm Implemented on FPGA](https://ieeexplore.ieee.org/document/10798331/)
+This project is for BioCAS2024:
 
-该组数据来源于https://figshare.le.ac.uk/articles/dataset/Simulated_dataset/11897595，详细介绍如下：
+[Low-complexity and Efficient Spike Sorting Algorithm Implemented on FPGA](https://ieeexplore.ieee.org/document/10798331/)
+
+该组数据来源于[此链接](https://figshare.le.ac.uk/articles/dataset/Simulated_dataset/11897595)，详细介绍如下：
 
 从基底神经节和新皮层采集的皮质内在体记录，包含594个不同的spike波形，归一化噪声范围0.05-0.2,相当于SNR范围3-16。据文中给出的[数据集链接](http://www.vis.caltech.edu/~rodri). 但打不开，page not found；不知道[2022年](https://ieeexplore.ieee.org/document/9772722)和[2023年](https://ieeexplore.ieee.org/document/10231079)两篇文章是怎么找到的数据
 
