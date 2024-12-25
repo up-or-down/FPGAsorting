@@ -1,16 +1,13 @@
 # FPGAsorting
 spike-sorting implemented on FPGA
-This project is for BioCAS2024[Low-complexity and Efficient Spike Sorting Algorithm Implemented on FPGA](https://ieeexplore.ieee.org/document/10798331/)
-该组数据来源于https://figshare.le.ac.uk/articles/dataset/Simulated_dataset/11897595
-，详细介绍如下：
+This project is for BioCAS2024 [Low-complexity and Efficient Spike Sorting Algorithm Implemented on FPGA](https://ieeexplore.ieee.org/document/10798331/)
 
-从基底神经节和新皮层采集的皮质内在体记录，包含594个不同的spike波形，归一化噪声范围0.05-0.2
-相当于SNR范围3-16
-据文中表示数据集链接——http://www.vis.caltech.edu/~rodri. 
-但打不开，page not found；不知道2022年和2023年两篇文章是怎么找到的数据
+该组数据来源于https://figshare.le.ac.uk/articles/dataset/Simulated_dataset/11897595，详细介绍如下：
 
-在bing国际版搜索人名+数据集，找到一个链接：显示由R.Q Quiroga在2020年2月26上传
-https://figshare.le.ac.uk/articles/dataset/Simulated_dataset/11897595
+从基底神经节和新皮层采集的皮质内在体记录，包含594个不同的spike波形，归一化噪声范围0.05-0.2,相当于SNR范围3-16。据文中给出的[数据集链接](http://www.vis.caltech.edu/~rodri). 但打不开，page not found；不知道[2022年](https://ieeexplore.ieee.org/document/9772722)和[2023年](https://ieeexplore.ieee.org/document/10231079)两篇文章是怎么找到的数据
+
+在bing国际版搜索人名+数据集，找到一个[链接](https://figshare.le.ac.uk/articles/dataset/Simulated_dataset/11897595)：显示由R.Q Quiroga在2020年2月26上传
+
 不知道是不是对应，先凑活着用吧。虽然下载了数据但是没有数据集解释及处理方法，几乎没什么用
 
 # 数据集mat内变量包括：
